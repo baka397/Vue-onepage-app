@@ -1,0 +1,17 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8" />
+    <title>Vue Onepage App</title>
+</head>
+<body>
+    <div id="page">
+        <div id="app-content">
+            <p>欢迎使用</p>
+            <router-view name="sidebar"></router-view>
+            <router-view></router-view>
+        </div>
+    </div>
+    <script src="http://vuejs.org/js/vue.js"></script>
+    <script src="/javascripts/__build__/app.min.js"></script>
+</body>
+</html>

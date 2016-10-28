@@ -1,0 +1,10 @@
+{
+	"head":{
+		"status":200,
+		"msg":"登录成功"
+	},
+	"body":{
+		"regNum":50,
+        "useNum":1000
+	}
+}

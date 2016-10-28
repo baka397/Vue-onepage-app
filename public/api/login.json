@@ -1,0 +1,18 @@
+{
+	"head":{
+		"status":200,
+		"msg":"登录成功"
+	},
+	"body":{
+		"status":1,
+        "name":"管理员",
+        "menus":[{
+            "name":"首页",
+            "alias":"dashboard"
+        },{
+            "name":"列表",
+            "alias":"list"
+        }
+        ]
+	}
+}
